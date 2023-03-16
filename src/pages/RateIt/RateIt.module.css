@@ -1,0 +1,14 @@
+.rate h1 {
+  font-size: 3em;
+  background-color: #A1A1A1;
+}
+
+.rate {
+  text-align: center;
+}
+
+.rate ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

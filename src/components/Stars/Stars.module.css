@@ -1,0 +1,78 @@
+@media screen and (orientation: portrait) {
+    .stars-wrapper {
+        font-size: 12vw;
+        color:rgb(219, 202, 43);
+    }
+}
+@media screen and (orientation: landscape) {
+    .stars-wrapper {
+        font-size: 5vw;
+        color:rgb(219, 202, 43);
+    }
+}
+
+.stars-wrapper a {
+	display: inline-block;
+}
+.stars-wrapper a:visited {
+	color: inherit;
+}
+.stars-wrapper a:active {
+	color: inherit;
+}
+.stars-wrapper a:hover {
+	color: inherit;
+}
+
+.stars-wrapper span {
+	display: inline-block;
+}
+
+.empty-star {
+ 	color:rgb(65, 65, 65);
+}
+
+.part-star-50 {
+	position: relative;
+ 	color:rgb(65, 65, 65);
+}
+
+.part-star-50:before {
+    content: '★';
+    color:rgb(219, 202, 43);
+    position:absolute;
+    top:0;	
+    left:0;
+	width: 50%;
+	overflow:hidden;
+}
+
+.part-star-25 {
+	position: relative;
+ 	color:rgb(65, 65, 65);
+}
+
+.part-star-25:before {
+    content: '★';
+    color:rgb(219, 202, 43);
+    position:absolute;
+    top:0;	
+    left:0;
+	width: 30%;
+	overflow:hidden;
+}
+
+.part-star-75 {
+	position: relative;
+ 	color:rgb(65, 65, 65);
+}
+
+.part-star-75:before {
+    content: '★';
+    color:rgb(219, 202, 43);
+    position:absolute;
+    top:0;	
+    left:0;
+	width: 70%;
+	overflow:hidden;
+}

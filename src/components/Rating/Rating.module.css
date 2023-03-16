@@ -1,0 +1,22 @@
+.rating {
+  text-align: center;
+}
+
+.average-rating {
+  font-size: 5em;
+}
+
+.rating h1 {
+  font-size: 3em;
+  background-color: #A1A1A1;
+}
+
+.rating p {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+p.average-rating {
+  margin: 1em auto 1em auto;
+  font-size: 3.5em;
+}

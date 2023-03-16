@@ -1,0 +1,14 @@
+.scanner {
+  text-align: center;
+  width: 100%;
+}
+
+.scanner-wrapper {
+  display: inline-block;
+  width: 100%;
+  max-width: 500px;
+}
+
+.scanner-wrapper p {
+  margin: 0;
+}

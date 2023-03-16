@@ -1,0 +1,13 @@
+.ratings {
+  text-align: center;
+}
+
+.ratings a {
+  text-decoration: none;
+}
+
+.ratings ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
